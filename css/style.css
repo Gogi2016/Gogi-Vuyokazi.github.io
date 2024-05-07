@@ -9682,3 +9682,63 @@ textarea.form-control {
   100% {
     stroke-dasharray: 89, 200;
     stroke-dashoffset: -136px; } }
+
+/* For screens smaller than 768px */
+@media (max-width: 767px) {
+  /* Adjust the font size */
+  .subheading {
+    font-size: large;
+  }
+}
+
+/* For screens smaller than 576px */
+@media (max-width: 575px) {
+  /* Adjust the font size */
+  .subheading {
+    font-size: medium;
+  }
+
+  /* Make the navbar collapse earlier */
+  .navbar-collapse {
+    background-color: rgba(0, 0, 0, 0.7);
+  }
+
+  .nav-item {
+    padding: 10px;
+  }
+}
+
+/* For screens larger than 1200px */
+@media (min-width: 1200px) {
+  /* Adjust the size of the heading */
+  .hero h1 {
+    font-size: 3em;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .scroll-up-btn {
+    bottom: 10px;
+    right: 10px;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 14px;
+  }
+}
+
+.scroll-up-btn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #333;
+  color: #fff;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 40px;
+  cursor: pointer;
+}
+
+
