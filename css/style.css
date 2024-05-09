@@ -9741,4 +9741,35 @@ textarea.form-control {
   cursor: pointer;
 }
 
+/* Default styles for the navbar */
+.navbar-nav {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-nav li {
+  display: inline-block;
+  margin-right: 20px; /* Adjust spacing between menu items */
+}
+
+/* Media query for smaller screens (e.g., smartphones) */
+@media (max-width: 768px) {
+  .navbar-nav li {
+      display: block; /* Display menu items vertically */
+      margin-right: 0; /* Remove spacing between menu items */
+  }
+  
+  .navbar-toggler {
+      display: block; /* Show the navbar toggler button */
+  }
+  
+  .collapse.navbar-collapse {
+      display: none; /* Hide the collapsed navbar by default */
+  }
+  
+  .navbar-toggler.collapsed + .navbar-collapse {
+      display: block; /* Show the collapsed navbar when toggled */
+  }
+}
+
 

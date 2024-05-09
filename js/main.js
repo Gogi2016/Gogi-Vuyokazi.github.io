@@ -270,9 +270,6 @@
   });
 
 
-
-
-
 })(jQuery);
 
 document.querySelector('.scroll-up-btn').addEventListener('click', () => {
