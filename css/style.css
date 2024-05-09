@@ -9755,7 +9755,7 @@ textarea.form-control {
 /* Media query for smaller screens (e.g., smartphones) */
 @media (max-width: 768px) {
   .navbar-nav li {
-      display: block; /* Display menu items vertically */
+      display: inline; /* Display menu items vertically */
       margin-right: 0; /* Remove spacing between menu items */
   }
   
