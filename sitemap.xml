@@ -8,11 +8,30 @@
 
 
 <url>
-  <loc>gogi-vuyokazi-github-io.vercel.app/</loc>
-  <lastmod>2024-03-21T08:25:39+00:00</lastmod>
+  <loc>https://gogi-vuyokazi-github-io.vercel.app/</loc>
+  <lastmod>2024-07-01T10:22:53+00:00</lastmod>
   <priority>1.00</priority>
 </url>
-
+<url>
+  <loc>https://gogi-vuyokazi-github-io.vercel.app/index.html</loc>
+  <lastmod>2024-07-01T10:22:53+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://gogi-vuyokazi-github-io.vercel.app/Vuyokazi%20Gogi%20.pdf</loc>
+  <lastmod>2024-07-01T10:22:53+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://gogi-vuyokazi-github-io.vercel.app/HTML%20&amp;%20CSS.pdf.pdf</loc>
+  <lastmod>2024-07-01T10:22:53+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://gogi-vuyokazi-github-io.vercel.app/My%20Resume.pdf</loc>
+  <lastmod>2024-07-01T10:22:53+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
 
 
 </urlset>
